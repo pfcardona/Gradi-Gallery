@@ -1,0 +1,25 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "Single page Aplication Prueba Gradi web",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+   
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ing Pablo Felipe Cardona pablofelipecardona@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^4.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
